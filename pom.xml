@@ -9,7 +9,7 @@
     
     <groupId>com.blazebit</groupId>
     <artifactId>dist-assembly-descriptor</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     
     <name>Distribution Assembly</name>
     <description>The distribution assembly descriptor for all Blazebit Community Projects.</description>
