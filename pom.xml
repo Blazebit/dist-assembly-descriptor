@@ -11,7 +11,42 @@
     <groupId>com.blazebit</groupId>
     <artifactId>dist-assembly-descriptor</artifactId>
     <version>1.0-SNAPSHOT</version>
+    
     <name>Distribution Assembly</name>
+    <description>The distribution assembly descriptor for all Blazebit Community Projects.</description>
+    <url>http://www.blazebit.com</url>
+
+    <issueManagement>
+        <system>github</system>
+        <url>https://github.com/Blazebit/dist-assembly-descriptor/issues</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Blazebit</name>
+        <url>http://www.blazebit.com</url>
+    </organization>
+    
+    <scm>
+        <connection>scm:git:git@github.com:Blazebit/dist-assembly-descriptor.git</connection>
+        <developerConnection>scm:git:git@github.com:Blazebit/dist-assembly-descriptor.git</developerConnection>
+        <url>git@github.com:Blazebit/dist-assembly-descriptor.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>blazebit.com</id>
+            <name>Blazebit Community</name>
+            <organization>Blazebit.com</organization>
+            <organizationUrl>http://www.blazebit.com</organizationUrl>
+        </developer>
+    </developers>
     
     <build>
         <plugins>
